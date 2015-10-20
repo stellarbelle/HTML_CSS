@@ -1,0 +1,63 @@
+/*.closed:before{content:'+';}
+.opened:before{content:'-';}*/
+
+html {
+ background-color: #F0F0F0; 
+}
+
+#headingContainer{
+ padding: 5px;
+ padding-left: 20px;
+ background-color: #D0D0D0;
+ margin: 20px;
+ border-radius: 20px;
+ font-size: 1.25em;
+ text-align: left;
+ width: 970px;
+}
+
+#home{
+	list-style-type: none;
+	text-align: left;
+}
+
+#menuContainer{
+ background-color: #D0D0D0;
+ margin-left: 20px;
+ display: inline-block;
+ border-radius: 20px;
+ padding-right: 20px;
+ display: inline-block;
+}
+
+#essayContainer{
+ background-color: #A0A0A0;
+ vertical-align: top;
+ border-radius: 20px;
+ padding: 20px;
+ display: inline-block; vertical-align:top;
+ width: 670px;
+ margin-left: 20px;
+}
+
+#footerContainer{
+ background-color: #D0D0D0;
+ display: block;
+ margin: 20px 0 20px 20px;
+ border-radius: 20px;
+ padding: 5px;
+ padding-left: 20px;
+ width: 970px;
+}
+
+a{
+ color: blue;
+}
+
+#menuContainer a {
+	text-decoration: none;
+}
+
+#articles a {
+	color: #700000;
+}

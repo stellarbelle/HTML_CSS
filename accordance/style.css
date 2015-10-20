@@ -1,0 +1,152 @@
+* {
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  width: 595px;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+#header {
+  display: inline-block;
+  border-radius: 5px;
+  background-color: gray;
+  width: 595px;
+  background: url(menu_icon1.png) left center no-repeat gray;
+  padding: 10px 0 10px 50px;
+}
+
+#header *{
+  display: inline-block;
+}
+
+.slash li + li::before {
+  content: " | ";
+  font-weight: normal;
+}
+
+.noDot ul li {
+  list-style: none;
+  font-size: 0.75em;
+  font-weight: bold;
+  color: black;
+}
+
+#header input{
+  border-radius: 20px;
+  height: 20px;
+  margin-left: 30px;
+}
+
+#lowerMenu li + li::before {
+  content: " / ";
+  color: white;
+}
+
+#lowerMenu ul li {
+  list-style: none;
+  display: inline;
+  font-weight: bold;
+  color: deepskyblue;
+  font-size: 10pt;
+}
+
+#lowerMenu a {
+  color: white;
+  text-decoration: none;
+}
+
+#lowerMenu {
+  display: block;
+  border-radius: 0 0 5px 5px;
+  background-color: gray;
+  padding: 5px 0 5px 15px;
+}
+
+#main {
+  margin-top: 10px;
+}
+
+#mainInfo {
+  border: 1px solid gray;
+  margin-top: 10px;
+  padding-bottom: 40px;
+  border-radius: 5px;
+}
+
+#mainInfo h1 {
+  font-size: 16pt;
+  display: inline-block;
+  border-right: thin solid dimgray;
+  color: dimgray;
+  padding: 0 10px 0 10px;
+}
+
+#button {
+  width: 175;
+  border-radius: 2px;
+  color: white;
+  background-color: royalblue;
+  font-size: 10pt;
+  padding: 5px 0 5px 0; 
+}
+
+.link {
+  width: 128px;
+  display: inline-block; vertical-align: top;
+  font-size: 8pt;
+  border-left: thin solid gray;
+  height: 250px;
+  padding: 5px 5px 5px 10px;
+}
+
+.link h3 {
+  font-size: 10pt;
+  padding-left: 10px;
+}
+
+
+.link button {
+  width: 120;
+  border-radius: 2px;
+  color: white;
+  background-color: deepskyblue;
+  font-size: 8pt;
+  padding: 5px 0 5px 0;  
+  display: inline;
+}
+
+.list {
+  width: 95px;
+  display: inline-block; vertical-align: top;
+  font-size: 8pt;
+  color: dimgray;
+  margin-bottom: 30px;
+}
+
+.list ul li {
+  list-style-type: none;
+}
+
+.list h4 {
+  font-weight: bold;
+  margin-top: 30px;
+  color: black;
+}
+
+hr {
+  height: 1px;
+  background: gray;
+  margin: 5px 0 5px 0;
+}
+
+#footer {
+  margin-top: 30px;
+  font-size: 8pt;
+}
